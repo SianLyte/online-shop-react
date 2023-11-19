@@ -1,0 +1,60 @@
+.device {
+  &__list {
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    width: 1000px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  &__item {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  &__img {
+    padding-bottom: 10px;
+  }
+  &__img > img {
+    width: 200px;
+    height: 200px;
+  }
+  &__price {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px 0 10px 0;
+  }
+  &__link {
+    text-align: start;
+  }
+
+  &__name-wrapper {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+  }
+
+  &__rating {
+    font-weight: 600;
+    color: orange;
+  }
+  &__rating-count {
+    color: gray;
+  }
+
+  &__rating-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  &__button {
+    width: 100%;
+  }
+}
